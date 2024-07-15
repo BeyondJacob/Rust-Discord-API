@@ -1,5 +1,4 @@
 pub mod message;
-pub mod error;
 pub mod permissions;
 pub mod arguments;
 pub mod embed;
