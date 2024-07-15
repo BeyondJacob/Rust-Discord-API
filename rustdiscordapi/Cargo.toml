@@ -1,0 +1,21 @@
+[package]
+name = "Rust-Discord-API"
+version = "0.1.0"
+edition = "2021"
+authors = ["GitHub Username: BeyondJacob"]
+description = "A Discord bot framework written in Rust."
+license = "MIT"
+homepage = "https://github.com/BeyondJacob/Rust-Discord-API"
+readme = "README.md"
+keywords = ["discord", "bot", "framework"]
+categories = ["command-line-utilities", "network-programming"]
+
+[dependencies]
+reqwest = { version = "0.12.5", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+async-trait = "0.1"
+serde_json = "1.0"
+
+[dev-dependencies]
+# Add any dependencies needed for development and testing
