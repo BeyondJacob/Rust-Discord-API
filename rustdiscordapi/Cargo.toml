@@ -2,6 +2,7 @@
 name = "Rust-Discord-API"
 version = "0.1.0"
 edition = "2021"
+build = "build.rs"
 authors = ["GitHub Username: BeyondJacob"]
 description = "A Discord bot framework written in Rust."
 license = "MIT"
